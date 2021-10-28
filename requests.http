@@ -19,3 +19,12 @@ Content-Type: application/json
     "password": "meow",
     "password_confirmation": "meow"
 }
+
+###Sessions create (login)
+POST http://localhost:3000/sessions
+Content-Type: application/json
+
+{
+    "email": "fred@test.com",
+    "password": "woof"
+}
