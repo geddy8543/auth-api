@@ -28,3 +28,15 @@ Content-Type: application/json
     "email": "fred@test.com",
     "password": "woof"
 }
+
+### User create
+POST http://localhost:3000/users
+Authorization: Bearer 
+Content-Type: application/json
+
+{
+    "name": "Test Name",
+    "email": "test@test.com",
+    "password": "testing",
+    "password_confirmation": "testing"
+}
